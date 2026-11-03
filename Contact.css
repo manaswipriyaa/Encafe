@@ -1,0 +1,357 @@
+/* ====================== CONTACT PAGE ======================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245, 245, 220, 0.703);
+}
+
+/* ==== SECTION - 1 ==== */
+
+/* bg */
+.section-1{
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4e3226;
+}
+
+/* title */
+.section-1 nav .title a{
+    color: beige;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-family: "Henny Penny", system-ui;
+}
+
+/* pages */
+.section-1 .pages{
+    display: flex;
+    gap: 150px;
+}
+.section-1 .pages a{
+    text-decoration: none;
+    color: beige;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .pages a:hover{
+    text-decoration: underline;
+}
+.section-1 .contact #c{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+/* contact */
+.section-1 .contact{
+    height: 50px;
+    width: 150px;
+    background-color: beige;
+    color: #4e3226;
+    border-radius: 100px;
+}
+.section-1 .contact a{
+    color: #4e3226;
+    position: absolute;
+    top: 40px;
+    right: 160px;
+    text-decoration: none;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .contact a:hover{
+    text-decoration: underline;
+}
+
+
+/* Section - 2 */
+
+/* bg */
+.section-2{
+    height: 300px;
+    width: 99vw;
+}
+
+/* text */
+.section-2 .text h3{
+    color: #4e3226;
+    font-size: 3em;
+    position: absolute;
+    top: 350px;
+    left: 420px;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+/* arrow */
+.section-2 .box{
+    height: 70px;
+    width: 70px;
+    background-color: #4e3226;
+    border-radius: 50%;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    z-index: 2;
+}
+.section-2 .box a{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 15px;
+    left: 27px;
+    font-size: 2em;
+    z-index: 2;
+}
+
+
+/* Section - 3 */
+
+/* bg */
+.section-3{
+    height: 930px;
+}
+
+/* boxes */
+/* b1 */
+.section-3 #b1{
+    height: 300px;
+    width: 250px;
+    background-color: #4e3226;
+    border-radius: 30px;
+    position: absolute;
+    top: 750px;
+    left: 160px;
+    z-index: 2;
+}
+.section-3 #b1 i{
+    color: beige;
+    font-size: 2.5em;
+    position: absolute;
+    top: 65px;
+    left: 95px;
+    z-index: 2;
+}
+.section-3 #b1 h4{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 150px;
+    left: 78px;
+    z-index: 2;
+}
+.section-3 #b1 a{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 220px;
+    left: 35px;
+    font-size: 1.2em;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+.section-3 #b1 a:hover{
+    text-decoration: underline;
+}
+.section-3 #b1:hover{
+    transform: scale(1.2);
+}
+
+/* b2 */
+.section-3 #b2{
+    height: 300px;
+    width: 250px;
+    background-color: #4e3226;
+    border-radius: 30px;
+    position: absolute;
+    top: 750px;
+    left: 600px;
+    z-index: 2;
+}
+.section-3 #b2 i{
+    color: beige;
+    font-size: 2.5em;
+    position: absolute;
+    top: 65px;
+    left: 95px;
+    z-index: 2;
+}
+.section-3 #b2 h4{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    z-index: 2;
+}
+.section-3 #b2 a{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    font-size: 1.2em;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+.section-3 #b2 a:hover{
+    text-decoration: underline;
+}
+.section-3 #b2:hover{
+    transform: scale(1.2);
+}
+
+/* b3 */
+.section-3 #b3{
+    height: 300px;
+    width: 250px;
+    background-color: #4e3226;
+    border-radius: 30px;
+    position: absolute;
+    top: 750px;
+    left: 1050px;
+    z-index: 2;
+}
+.section-3 #b3 i{
+    color: beige;
+    font-size: 2.5em;
+    position: absolute;
+    top: 65px;
+    left: 95px;
+    z-index: 2;
+}
+.section-3 #b3 h4{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 150px;
+    left: 85px;
+    z-index: 2;
+}
+.section-3 #b3 a{
+    text-decoration: none;
+    color: beige;
+    position: absolute;
+    top: 220px;
+    left: 75px;
+    font-size: 1.2em;
+    font-family: "Metamorphous", serif;
+    word-spacing: 10px;
+    z-index: 2;
+}
+.section-3 #b3 a:hover{
+    text-decoration: underline;
+}
+.section-3 #b3:hover{
+    transform: scale(1.2);
+}
+
+
+/* section - 4 */
+
+/* bg */
+.section-4{
+    height: 500px;
+    width: 1300px;
+    background-color: #4e3226;
+    border-radius: 100px;
+    position: absolute;
+    top: 1250px;
+    left: 100px;
+    z-index: 2;
+}
+
+/* text */
+.section-4 .te p{
+    font-size: 2em;
+    color: beige;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+    z-index: 2;
+}
+.section-4 .te p:hover{
+    text-decoration: underline;
+}
+.section-4 .te i{
+    font-size: 3em;
+    color: beige;
+    position: absolute;
+    top: 200px;
+    left: 310px;
+    z-index: 2;
+}
+
+/* map */
+.section-4 #maps iframe{
+    height: 300px;
+    width: 500px;
+    border-radius: 50px;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    z-index: 2;
+}
+
+
+/* section - 5 */
+
+.section-5{
+    height: 800px;
+}
+
+.section-5 .t{
+    color: #4e3226;
+    font-size: 2em;
+    position: absolute;
+    top: 1920px;
+    left: 350px;
+    font-family: "Metamorphous", serif;
+    word-spacing: 10px;
+}
+
+.section-5 .faq{
+    height: 50px;
+    width: 250px;
+    background-color: #4e3226;
+    position: absolute;
+    top: 1915px;
+    right: 380px;
+    border-radius: 100px;
+}
+
+.section-5 .faq a{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    color: beige;
+    font-size: 1em;
+    text-decoration: none;
+    word-spacing: 10px;
+    font-family: "Metamorphous", serif;
+}
+.section-5 .faq a:hover{
+    text-decoration: underline;
+}
+
+.section-5 .im{
+    background: url(./images/How\ to\ Make\ Cold\ Brew\ Coffee\ in\ a\ French\ Press\ \(step-by-step\)\ -\ The\ Wooden\ Skillet.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 2000px;
+    width: 100%;
+    filter: blur(30px);
+    position: absolute;
+    top: 100px;
+}

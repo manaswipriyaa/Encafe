@@ -1,0 +1,403 @@
+/* ====================== ABOUT PAGE ======================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245, 245, 220, 0.703);
+}
+
+/* ==== SECTION - 1 ==== */
+
+/* bg */
+.section-1{
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4e3226;
+}
+
+/* title */
+.section-1 nav .title a{
+    color: beige;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-family: "Henny Penny", system-ui;
+}
+
+/* pages */
+.section-1 .pages{
+    display: flex;
+    gap: 150px;
+}
+.section-1 .pages a{
+    text-decoration: none;
+    color: beige;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .pages a:hover{
+    text-decoration: underline;
+}
+.section-1 .pages #men{
+    text-decoration: underline;
+}
+.section-1 .pages #ab{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+/* contact */
+.section-1 .contact{
+    height: 50px;
+    width: 150px;
+    background-color: beige;
+    color: #4e3226;
+    border-radius: 100px;
+}
+.section-1 .contact a{
+    color: #4e3226;
+    position: absolute;
+    top: 40px;
+    right: 160px;
+    text-decoration: none;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .contact a:hover{
+    text-decoration: underline;
+}
+
+
+/* ======= Section - 2 ======= */
+
+/* bg */
+.section-2{
+    height: 500px;
+}
+
+/* image */
+.section-2 .image{
+    background: url(./images/☕☕☕.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position-y: -120px;
+    position: absolute;
+    top: 330px;
+    left: 1000px;
+    z-index: 3;
+    border-radius: 100px;
+    border: 2px solid #4e32264f;
+}
+
+/* text */
+.section-2 .text .line{
+    height: 1px;
+    width: 550px;
+    background-color: beige;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    z-index: 3;
+}
+.section-2 .text p{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 190px;
+    left: 685px;
+    z-index: 3;
+}
+.section-2 .text .line2{
+    height: 1px;
+    width: 550px;
+    background-color: beige;
+    position: absolute;
+    top: 200px;
+    left: 840px;
+    z-index: 3;
+}
+.section-2 .text .t1{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 3em;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    z-index: 3;
+}
+.section-2 .text .t1:hover{
+    transform: scale(1.1);
+}
+.section-2 .text .t2{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 3em;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    z-index: 3;
+}
+.section-2 .text .t2:hover{
+    transform: scale(1.1);
+}
+.section-2 .text .t3{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 3em;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    z-index: 3;
+}
+.section-2 .text .t3:hover{
+    transform: scale(1.1);
+}
+
+/* ======== Section - 3 ========= */
+
+/* bg */
+.section-3{
+    height: 400px;
+}
+
+/* image */
+.section-3 .im{
+    background: url(./images/aes;\ nina\ simonetti\ -\ soy\ luna.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 2000px;
+    width: 100%;
+    filter: blur(100px);
+    position: absolute;
+    top: 100px;
+}
+
+/* text */
+.section-3 .tex p:hover{
+    color: #4e3226;
+    transform: scale(1.1);
+}
+.section-3 .tex .p1{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 1.2em;
+    position: absolute;
+    top: 820px;
+    right: 100px;
+    z-index: 2;
+}
+.section-3 .tex .p2{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 1.2em;
+    position: absolute;
+    top: 880px;
+    right: 100px;
+    z-index: 2;
+}
+.section-3 .tex .p3{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 1.2em;
+    position: absolute;
+    top: 940px;
+    right: 100px;
+    z-index: 2;
+}
+.section-3 .tex .p4{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 1.2em;
+    position: absolute;
+    top: 1000px;
+    right: 100px;
+    z-index: 2;
+}
+
+/* image small */
+.section-3 .ima{
+    background: url(./images/Amble\ Coffee\ Truck\ \(@amblecoffee\)\ •\ Instagram….jpg);
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+    border: 1px solid #4e3226;
+    border-radius: 50px;
+    position: absolute;
+    top: 750px;
+    left: 100px;
+}
+
+
+
+/* Section - 4 */
+
+/* bg */
+.section-4{
+    background-color: #4e3226;
+    height: 500px;
+    width: 1300px;
+    position: absolute;
+    top: 1220px;
+    left: 90px;
+    z-index: 5;
+    border-radius: 100px;
+}
+
+/* text */
+.section-4 .text-h{
+    height: 50px;
+    width: 500px;
+    border: 2px dotted beige;
+    position: absolute;
+    top: 55px;
+    left: 410px;
+}
+.section-4 .text-h h3{
+    text-align: center;
+    color: beige;
+    font-size: medium;
+    position: absolute;
+    top: 12px;
+    left: 120px;
+    font-family: "Metamorphous", serif;
+}
+
+/* icons */
+
+.section-4 .icon1{
+    background-color: beige;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+.section-4 .icon1 i{
+    position: absolute;
+    top: 55px;
+    left: 52px;
+    font-size: 2.5em;
+    color: #2d1d16;
+}
+.section-4 .tex1 p{
+    position: absolute;
+    top: 390px;
+    left: 115px;
+    color: beige;
+    font-size: 1.5em;
+    font-family: "Metamorphous", serif;
+}
+.section-4 .icon1 i{
+    animation: rot 3s infinite;
+}
+@keyframes rot {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-45deg);
+    }
+}
+
+
+.section-4 .icon2{
+    background-color: beige;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 570px;
+}
+.section-4 .icon2 i{
+    position: absolute;
+    top: 55px;
+    left: 52px;
+    font-size: 2.5em;
+    color: #2d1d16;
+}
+.section-4 .tex2 p{
+    position: absolute;
+    top: 390px;
+    left: 540px;
+    color: beige;
+    font-size: 1.5em;
+    font-family: "Metamorphous", serif;
+}
+.section-4 .icon2 i{
+    animation: bake 3s infinite;
+}
+@keyframes bake {
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(3px);
+    }
+}
+
+.section-4 .icon3{
+    background-color: beige;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+.section-4 .icon3 i{
+    position: absolute;
+    top: 56px;
+    left: 50px;
+    font-size: 2.5em;
+    color: #2d1d16;
+}
+.section-4 .tex3 p{
+    position: absolute;
+    top: 390px;
+    left: 985px;
+    color: beige;
+    font-size: 1.5em;
+    font-family: "Metamorphous", serif;
+}
+.section-4 .icon3 i{
+    animation: heart 3s infinite;
+}
+@keyframes heart {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+
+/* Last text */
+.text-f{
+    color: #4e3226;
+    position: absolute;
+    top: 1870px;
+    left: 170px;
+    font-size: 2.1em;
+    font-family: "Metamorphous", serif;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.text-f i{
+    font-size: 1.5em;
+    position: absolute;
+    top: 130px;
+    left: 550px;
+    text-decoration: none;
+    color: #4e3226;
+}

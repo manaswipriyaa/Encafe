@@ -1,0 +1,569 @@
+/* ====================== MENU PAGE ======================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245, 245, 220, 0.703);
+}
+
+/* ==== SECTION - 1 ==== */
+
+/* bg */
+.section-1{
+    height: 100px;
+    width: 99vw;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4e3226;
+}
+
+/* title */
+.section-1 nav .title a{
+    color: beige;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-family: "Henny Penny", system-ui;
+}
+
+/* pages */
+.section-1 .pages{
+    display: flex;
+    gap: 150px;
+}
+.section-1 .pages a{
+    text-decoration: none;
+    color: beige;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .pages a:hover{
+    text-decoration: underline;
+}
+.section-1 .pages #men{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+/* contact */
+.section-1 .contact{
+    height: 50px;
+    width: 150px;
+    background-color: beige;
+    color: #4e3226;
+    border-radius: 100px;
+}
+.section-1 .contact a{
+    color: #4e3226;
+    position: absolute;
+    top: 40px;
+    right: 160px;
+    text-decoration: none;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .contact a:hover{
+    text-decoration: underline;
+}
+
+
+/* Section - 2 */
+.section-2{
+    height: 300px;
+    width: 99vw;
+}
+
+/* text */
+.section-2 .text h3{
+    color: #4e3226;
+    position: absolute;
+    top: 220px;
+    right: 550px;
+    font-size: 4em;
+    font-family: "Metamorphous", serif;
+    word-spacing: 5px;
+    z-index: 2;
+}
+
+/* line */
+.section-2 .line1{
+    height: 2px;
+    width: 1300px;
+    background-color: #4e322658;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    z-index: 2;
+}
+
+
+/* SECTION - 3 */
+
+.menu-1{
+    height: 400px;
+    width: 100%;
+}
+
+.menu-1 .head p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 500px;
+    left: 170px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-1 .line{
+    height: 160px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 540px;
+    left: 190px;
+    z-index: 2;
+}
+
+.menu-1 .menu1{
+    position: absolute;
+    top: 540px;
+    left: 210px;
+    line-height: 32px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    word-spacing: 180px;
+    z-index: 2;
+}
+
+.menu-1 .menu1 .lat{
+    word-spacing: 220px;
+}
+
+.menu-1 .menu1 .am{
+    word-spacing: 177px;
+}
+
+.menu-1 .menu1 .es{
+    word-spacing: 190px;
+}
+
+.menu-1 .menu1 .lat+p{
+    word-spacing: 207px;
+}
+
+
+/* menu - 2 */
+
+.menu-2 .head1 p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-2 .line2{
+    height: 160px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 540px;
+    left: 870px;
+    z-index: 2;
+}
+
+.menu-2 .menu2{
+    position: absolute;
+    top: 540px;
+    left: 890px;
+    line-height: 38px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    word-spacing: 180px;
+    z-index: 2;
+}
+
+.menu-2 .menu2 .im{
+    word-spacing: 229px;
+}
+
+.menu-2 .menu2 .cb{
+    word-spacing: 236px;
+}
+
+.menu-2 .menu2 .il{
+    word-spacing: 240px;
+}
+
+
+/* menu - 3 */
+
+.menu-3 .head3 p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 780px;
+    left: 170px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-3 .line3{
+    height: 160px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 820px;
+    left: 190px;
+    z-index: 2;
+}
+
+.menu-3 .menu3{
+    position: absolute;
+    top: 820px;
+    left: 210px;
+    line-height: 38px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    word-spacing: 180px;
+    z-index: 2;
+}
+
+.menu-3 .menu3 .hc{
+    word-spacing: 153px;
+}
+
+.menu-3 .menu3 .ml{
+    word-spacing: 158px;
+}
+
+.menu-3 .menu3 .ic{
+    word-spacing: 170px;
+}
+
+
+/* Menu - 4 */
+
+.menu-4 .head4 p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 1050px;
+    left: 170px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-4 .line4{
+    height: 160px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 1090px;
+    left: 195px;
+    z-index: 2;
+}
+
+.menu-4 .menu4{
+    position: absolute;
+    top: 1090px;
+    left: 210px;
+    line-height: 38px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    z-index: 2;
+    word-spacing: 180px;
+}
+
+.menu-4 .menu4 .bc{
+    word-spacing: 145px;
+}
+
+.menu-4 .menu4 .cc{
+    word-spacing: 120px;
+}
+
+.menu-4 .menu4 .chc{
+    word-spacing: 129px;
+}
+
+.menu-4 .menu4 .bb{
+    word-spacing: 160px;
+}
+
+
+/* Menu - 5 */
+
+.menu-5 .head5 p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 780px;
+    left: 850px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-5 .line5{
+    height: 150px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 820px;
+    left: 875px;
+    z-index: 2;
+}
+
+.menu-5 .menu5{
+    position: absolute;
+    top: 820px;
+    left: 890px;
+    line-height: 43px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    word-spacing: 180px;
+    z-index: 2;
+}
+
+.menu-5 .menu5 .ctp{
+    word-spacing: 140px;
+}
+
+.menu-5 .menu5 .t{
+    word-spacing: 255px;
+}
+
+.menu-5 .menu5 .chc{
+    word-spacing: 129px;
+}
+
+
+/* Menu - 6 */
+
+.menu-6 .head6 p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 1050px;
+    left: 850px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-6 .line6{
+    height: 145px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 1090px;
+    left: 875px;
+    z-index: 2;
+}
+
+.menu-6 .menu6{
+    position: absolute;
+    top: 1090px;
+    left: 890px;
+    line-height: 43px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    word-spacing: 180px;
+    z-index: 2;
+}
+
+.menu-6 .menu6 .gvs{
+    word-spacing: 145px;
+}
+
+.menu-6 .menu6 .at{
+    word-spacing: 220px;
+}
+
+.menu-6 .menu6 .ff{
+    word-spacing: 231px;
+}
+
+
+/* Menu - 7 */
+
+.menu-7 .head7 p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 1310px;
+    left: 170px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-7 .line7{
+    height: 120px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 1350px;
+    left: 195px;
+    z-index: 2;
+}
+
+.menu-7 .menu7{
+    position: absolute;
+    top: 1350px;
+    left: 210px;
+    line-height: 38px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    word-spacing: 180px;
+    z-index: 2;
+}
+
+.menu-7 .menu7 .l{
+    word-spacing: 185px;
+}
+
+.menu-7 .menu7 .pfa{
+    word-spacing: 125px;
+}
+
+.menu-7 .menu7 .vm{
+    word-spacing: 160px;
+}
+
+
+/* Menu - 8 */
+
+.menu-8 .head8 p{
+    color: #4e3226;
+    font-size: 1.2em;
+    position: absolute;
+    top: 1310px;
+    left: 850px;
+    font-weight: 400;
+    font-family: "Metamorphous", serif;
+    z-index: 2;
+}
+
+.menu-8 .line8{
+    height: 250px;
+    width: 1px;
+    background-color: #4e322640;
+    position: absolute;
+    top: 1350px;
+    left: 875px;
+    z-index: 2;
+}
+
+.menu-8 .menu8{
+    position: absolute;
+    top: 1350px;
+    left: 890px;
+    line-height: 43px;
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    font-size: small;
+    word-spacing: 180px;
+    z-index: 2;
+}
+
+.menu-8 .menu8 .c{
+    word-spacing: 255px;
+}
+
+.menu-8 .menu8 .v{
+    word-spacing: 277px;
+}
+
+.menu-8 .menu8 .s{
+    word-spacing: 245px;
+}
+
+.menu-8 .menu8 .ms{
+    word-spacing: 227px;
+}
+
+.menu-8 .menu8 .ls{
+    word-spacing: 231px;
+}
+
+.menu-8 .menu8 .ws{
+    word-spacing: 190px;
+}
+
+
+.imagecof{
+    background: url(./images/coffee-2.jpg);
+    background-size: cover;
+    background-position-y: -1930px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    z-index: 2;
+    border-radius: 50%;
+    border: 3px solid #4e3226;
+    z-index: 2;
+}
+
+.line9{
+    height: 2px;
+    width: 1000px;
+    background-color: #4e322641;
+    position: absolute;
+    top: 1700px;
+    right: 90px;
+    z-index: 2;
+}
+
+.textline{
+    position: absolute;
+    top: 1670px;
+    left: 650px;
+    font-family: "Henny Penny", system-ui;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    color: #4e3226;
+    z-index: 2;
+}
+
+.textline i{
+    font-size: 1.3em;
+}
+
+p:hover{
+    transform: scale(1.1);
+}
+
+
+.backgroundd{
+    background: url(./images/me.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+    background-attachment: fixed;
+    height: 1650px;
+    width: 100%;
+    filter: blur(150px);
+    position: absolute;
+    top: 100px;
+}

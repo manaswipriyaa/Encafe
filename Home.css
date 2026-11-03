@@ -1,0 +1,578 @@
+/* =================== HOME PAGE ==================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245, 245, 220, 0.703);
+}
+
+/* ==== SECTION - 1 ==== */
+
+/* bg */
+.section-1{
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4e3226;
+}
+
+/* title */
+.section-1 nav .title a{
+    color: beige;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-family: "Henny Penny", system-ui;
+}
+
+/* pages */
+.section-1 .pages{
+    display: flex;
+    gap: 150px;
+}
+.section-1 .pages a{
+    text-decoration: none;
+    color: beige;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .pages a:hover{
+    text-decoration: underline;
+}
+.section-1 .pages #hm{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+/* contact */
+.section-1 .contact{
+    height: 50px;
+    width: 150px;
+    background-color: beige;
+    color: #4e3226;
+    border-radius: 100px;
+}
+.section-1 .contact a{
+    color: #4e3226;
+    position: absolute;
+    top: 40px;
+    right: 160px;
+    text-decoration: none;
+    font-family: "Metamorphous", serif;
+}
+.section-1 .contact a:hover{
+    text-decoration: underline;
+}
+
+/* background image */
+.bgimage{
+    background: url(./images/espr.jpg);
+    height: 600px;
+    width: 95vw;
+    position: relative;
+    top: 120px;
+    left: 40px;
+    background-size: cover;
+    background-position-y: -130px; 
+    border-radius: 50px;
+}
+.bgimage .text h3{
+    position: absolute;
+    color: beige;
+    font-family: "Metamorphous", serif;
+    font-size: 3.5em;
+    top: 175px;
+    left: 380px;
+}
+
+
+/* ============= SECTION - 2 ============== */
+
+/* bg */
+.section-2{
+    height: 900px;
+    width: 99vw;
+}
+
+/* text */
+.section-2 .text-over p{
+    text-align: center;
+    font-family: "Metamorphous", serif;
+    font-size: large;
+    color: #4e3226;
+    position: absolute;
+    top: 850px;
+    left: 650px;
+}
+.section-2 .text-over h3{
+    text-align: center;
+    font-family: "Metamorphous", serif;
+    font-size: 3em;
+    color: #4e3226;
+    position: absolute;
+    top: 900px;
+    left: 360px;
+}
+
+.section-2 .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* image 1 */
+.section-2 .images .img1{
+    background: url(./images/download.jpg);
+    background-size: cover;
+    background-position: -1px;
+    background-position-y: -180px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1020px;
+    left: 20px;
+    border-radius: 30px;
+}
+.section-2 .images .img1 #cap{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+.section-2 .images .img1 #caption1{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    font-size: 11px;
+}
+.section-2 .images .img1 h4{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 300px;
+    left: 120px;
+}
+.section-2 .images .img1:hover{
+    transform: scale(1.1);
+}
+
+/* image 2 */
+.section-2 .images .img2{
+    background: url(./images/Close-up\ of\ a\ croissant\ with\ a\ pat\ of\ butter\ on\ a\ plate_\ royalty\ free\ stock\ image.jpg);
+    background-size: cover;
+    background-position-y: -140px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1020px;
+    left: 400px;
+    border-radius: 30px;
+}
+.section-2 .images .img2 #croi{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 230px;
+    left: 110px;
+}
+.section-2 .images .img2 #caption2{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 270px;
+    left: 70px;
+    font-size: 11px;
+}
+.section-2 .images .img2 h4{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+}
+.section-2 .images .img2:hover{
+    transform: scale(1.1);
+}
+
+/* image 3 */
+.section-2 .images .img3{
+    background: url(./images/867928159437853526.jpg);
+    background-size: cover;
+    background-position: -1px;
+    background-position-y: -40px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1020px;
+    left: 775px;
+    border-radius: 30px;
+}
+.section-2 .images .img3 #pas{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+}
+.section-2 .images .img3 #caption3{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 270px;
+    left: 45px;
+    font-size: 11px;
+}
+.section-2 .images .img3 h4{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 300px;
+    left: 135px;
+}
+.section-2 .images .img3:hover{
+    transform: scale(1.1);
+}
+
+/* image 4 */
+.section-2 .images .img4{
+    background: url(./images/8\ Easy\ \(No\ Churn!\)\ Strawberry\ Ice\ Cream\ Recipes.jpg);
+    background-size: cover;
+    background-position: -1px;
+    background-position-y: -50px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1020px;
+    left: 1150px;
+    border-radius: 30px;
+}
+.section-2 .images .img4 #straw{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+.section-2 .images .img4 #caption4{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    font-size: 11px;
+}
+.section-2 .images .img4 h4{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+.section-2 .images .img4:hover{
+    transform: scale(1.1);
+}
+
+/* explore button */
+.section-2 .explore{
+    position: absolute;
+    background-color: #4e3226;
+    top: 1400px;
+    left: 650px;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+}
+.section-2 .explore a{
+    position: absolute;
+    top: 14px;
+    left: 50px;
+    text-decoration: none;
+    color: beige;
+    font-family: "Metamorphous", serif;
+}
+.section-2 .explore a:hover{
+    text-decoration: underline;
+}
+
+
+/* ================ SECTION - 3 ================ */
+
+/* bg */
+.section-3{
+    height: 650px;
+    width: 99vw;
+}
+
+/* bg box */
+.section-3 .container{
+    height: 600px;
+    width: 93vw;
+    position: absolute;
+    top: 1550px;
+    left: 45px;
+    border-radius: 50px;
+    background-color: #4e3226;
+}
+
+/* video */
+.section-3 .container .storyvid video{
+    height: 550px;
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    border-radius: 50px;
+}
+
+/* text */
+.section-3 .container .textvid #our{
+    position: absolute;
+    top: 160px;
+    right: 405px;
+    color: beige;
+    word-spacing: 2px;
+    font-family: "Metamorphous", serif;
+}
+.section-3 .container .textvid h3{
+    position: absolute;
+    top: 215px;
+    right: 90px;
+    color: beige;
+    font-size: 2.3em;
+    font-family: "Metamorphous", serif;
+}
+.section-3 .container .textvid #des{
+    position: absolute;
+    top: 305px;
+    right: 65px;
+    color: beige;
+    font-size: 0.8em;
+    font-family: "Metamorphous", serif;
+}
+.section-3 .container .textvid #desc{
+    position: absolute;
+    top: 335px;
+    right: 65px;
+    color: beige;
+    font-size: 0.8em;
+    font-family: "Metamorphous", serif;
+}
+.section-3 .container .buttonvid{
+    position: absolute;
+    top: 410px;
+    right: 80px;
+    background-color: beige;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+}
+.section-3 .container .buttonvid a{
+    position: absolute;
+    top: 16px;
+    right: 35px;
+    color: #4e3226;
+    text-decoration: none;
+    font-family: "Metamorphous", serif;
+    font-size: small;    
+}
+.section-3 .container .buttonvid a:hover{
+    text-decoration: underline;
+}
+
+/* ================= SECTION - 4 =================== */
+
+/* bg */
+.section-4{
+    height: 750px;
+    width: 99vw;
+}
+
+/* text - 1 */
+.section-4 .text h3{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 2450px;
+    left: 100px;
+    font-size: 2.5em;
+}
+
+/* small text */
+.section-4 .text p{
+    color: #4e3226;
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 2550px;
+    left: 100px;
+    font-size: 1em;
+}
+
+/* peek-in button */
+.section-4 .button{
+    height: 50px;
+    width: 250px;
+    background-color: #4e3226;
+    position: absolute;
+    top: 2620px;
+    left: 100px;    
+    border-radius: 50px;
+}
+.section-4 .button a{
+    color: beige;
+    font-family: "Metamorphous", serif;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 75px;
+}
+.section-4 .button a:hover{
+    text-decoration: underline;
+}
+
+/* images */
+.section-4 .images4 img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2500px;
+    right: 210px;
+    z-index: 4;
+}
+.section-4 .images4 #lat{
+    height: 450px;
+    width: 300px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2350px;
+    right: 50px;
+    z-index: 3;
+}
+.section-4 .images4 #hot{
+    height: 410px;
+    width: 300px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2300px;
+    right: 330px;
+    z-index: 2;
+}
+
+
+/* ============== Footer =============== */
+
+/* bg */
+footer{
+    height: 250px;
+    width: 99vw;
+    background-color: #4e3226;
+}
+
+/* title */
+footer .titl h3{
+    font-family: "Henny Penny", system-ui;
+    color: beige;
+    position: absolute;
+    top: 2990px;
+    left: 50px;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+/* line */
+footer .titl .l{
+    height: 1px;
+    width: 30px;
+    background-color: beige;
+    border: 1px solid beige;
+    border-radius: 30px;
+    position: absolute;
+    top: 3050px;
+    left: 50px;
+}
+/* tagline */
+footer .titl p{
+    font-family: "Henny Penny", system-ui;
+    color: beige;
+    position: absolute;
+    top: 3070px;
+    left: 50px;
+    letter-spacing: 1px;
+    font-size: 0.6em;
+}
+
+/* icons */
+footer .iconsfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    position: absolute;
+    top: 3010px;
+    right: 40px;
+}
+footer .iconsfoot i{
+    font-size: 2em;
+    color: beige;
+}
+footer .iconsfoot i:hover{
+    transform: scale(1.1);
+}
+
+/* list */
+footer .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+}
+footer .list li{
+    line-height: 25px;
+    padding: 7px;
+}
+footer .list .fi{
+    font-family: "Metamorphous", serif;
+    position: absolute;
+    top: 2945px;
+    color: beige;
+}
+footer .list li a{
+    text-decoration: none;
+    color: beige;
+}
+footer .list li a:hover{
+    text-decoration: underline;
+}
+
+/* input box */
+footer .list input{
+    height: 25px;
+    width: 250px;
+    background-color: beige;
+    position: absolute;
+    top: 3080px;
+}
+footer .list input+a{
+    color: #4e3226;
+    text-decoration: none;
+    position: absolute;
+    top: 3080px;
+    right: 440px;
+}
+footer .list input+a:hover{
+    text-decoration: none
+}
+footer .list .pa{
+    color: beige;
+}
