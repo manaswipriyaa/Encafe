@@ -116,9 +116,12 @@ Good coffee, delicious bites, and little moments worth enjoying.
 
 Created with creativity and coffee. 
 
-**Author:** Manaswi Priya Maddu
+**By:** Manaswi Priya Maddu
+
 **Project:** ENCAFÈ
+
 **Category:** Frontend Web Development
+
 **Status:** Completed
 
 ---
